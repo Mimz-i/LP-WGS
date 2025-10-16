@@ -33,7 +33,7 @@ HG38_LEN = {
     "21": 46709983,  "22": 50818468
 }
 
-# FREEC header expectations (match your files exactly)
+# FREEC header expectations (match files exactly)
 RATIO_COLS = [
     "Chromosome","Start","Ratio","MedianRatio","CopyNumber","BAF",
     "estimatedBAF","Genotype","UncertaintyOfGT","Subclone_CN","Subclone_Population"
@@ -262,4 +262,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
