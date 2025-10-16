@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 Batch Control-FREEC CN plots
- - Moving-average (51-bin) of log2 ratios, centered to CN=2
+ - Moving-average (51-bin) of log2 ratios, centred to CN=2
  - Autosomes only (1..22), X/Y removed
  - Y-axis fixed to [-10, 10]
  - Baseline at 0, alternating faint background bands
@@ -262,5 +262,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
