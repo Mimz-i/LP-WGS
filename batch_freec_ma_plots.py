@@ -9,8 +9,6 @@ Batch Control-FREEC CN plots
  - Excludes samples containing 'ARPE19_P27' (case-insensitive)
  - Recurses through the input folder and processes all *_ratio.txt + *_CNVs pairs
 
-Usage (Windows example):
-  python "%USERPROFILE%\\batch_freec_ma_plots.py" "G:\\My Drive\\...\\controlfreec"
 """
 
 import sys, re
@@ -264,3 +262,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
